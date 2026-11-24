@@ -1,0 +1,506 @@
+[2026-11-23 00:44:48] AUCTION START | Barang=1 | Nama=Laptop ASUS ROG (bekas)
+[2026-11-23 00:44:48] AUCTION START | Barang=2 | Nama=iPhone 15
+[2026-11-23 00:44:48] AUCTION START | Barang=3 | Nama=Keyboard Mechanical
+[2026-11-23 00:44:49] API | Kurs dasar IDR berhasil diambil via Gson
+[2026-11-23 00:44:49] SERVER STARTED | TCP=5000 | FILE=5001 | UDP=5002
+[2026-11-23 00:44:49] UDP TICKER STARTED | Port=5002
+[2026-11-23 00:45:06] CONNECT | IP=127.0.0.1
+[2026-11-23 00:45:06] LOGIN | User=raja | IP=127.0.0.1
+[2026-11-23 00:45:06] UDP SUB | User=raja | Addr=/127.0.0.1:58622
+[2026-11-23 00:45:06] LIST | User=raja
+[2026-11-23 00:45:07] API | Kurs dasar USD berhasil diambil via Gson
+[2026-11-23 00:45:07] CONVERT | User=raja | 1 USD -> IDR | Hasil=18291.41
+[2026-11-23 00:45:26] LIST | User=raja
+[2026-11-23 00:45:46] LIST | User=raja
+[2026-11-23 00:45:59] SELL | User=raja | Barang=4 | Nama=lenovo loq | IDR=5000000 | File=- | Kategori=aksesoris | Mulai=5m | Durasi=15m
+[2026-11-23 00:45:59] LIST | User=raja
+[2026-11-23 00:46:06] LIST | User=raja
+[2026-11-23 00:46:26] LIST | User=raja
+[2026-11-23 00:46:46] LIST | User=raja
+[2026-11-23 00:47:06] LIST | User=raja
+[2026-11-23 00:47:09] SELL | User=raja | Barang=5 | Nama=iphone 13 | IDR=6000000 | File=- | Kategori=smartphone | Mulai=0m | Durasi=15m
+[2026-11-23 00:47:09] LIST | User=raja
+[2026-11-23 00:47:09] AUCTION START | Barang=5 | Nama=iphone 13
+[2026-11-23 00:47:09] LIST | User=raja
+[2026-11-23 00:47:26] LIST | User=raja
+[2026-11-23 00:47:46] LIST | User=raja
+[2026-11-23 00:48:06] LIST | User=raja
+[2026-11-23 00:48:26] LIST | User=raja
+[2026-11-23 00:48:46] LIST | User=raja
+[2026-11-23 00:49:06] LIST | User=raja
+[2026-11-23 00:49:26] LIST | User=raja
+[2026-11-23 00:49:46] LIST | User=raja
+[2026-11-23 00:50:07] API | Kurs dasar IDR berhasil diambil via Gson
+[2026-11-23 00:50:07] LIST | User=raja
+[2026-11-23 00:50:26] LIST | User=raja
+[2026-11-23 00:50:46] LIST | User=raja
+[2026-11-23 00:50:59] AUCTION START | Barang=4 | Nama=lenovo loq
+[2026-11-23 00:50:59] LIST | User=raja
+[2026-11-23 00:51:07] LIST | User=raja
+[2026-11-23 00:51:26] LIST | User=raja
+[2026-11-23 00:51:46] LIST | User=raja
+[2026-11-23 00:52:04] BID | User=raja | Barang=3 | IDR=6000000 | Hasil=200
+[2026-11-23 00:52:04] LIST | User=raja
+[2026-11-23 00:52:06] LIST | User=raja
+[2026-11-23 00:52:22] BID | User=raja | Barang=3 | IDR=6500000 | Hasil=200
+[2026-11-23 00:52:22] LIST | User=raja
+[2026-11-23 00:52:26] LIST | User=raja
+[2026-11-23 00:52:32] BID | User=raja | Barang=3 | IDR=7550000 | Hasil=200
+[2026-11-23 00:52:32] LIST | User=raja
+[2026-11-23 00:52:46] LIST | User=raja
+[2026-11-23 00:53:06] LIST | User=raja
+[2026-11-23 00:53:26] LIST | User=raja
+[2026-11-23 00:53:46] LIST | User=raja
+[2026-11-23 00:54:06] LIST | User=raja
+[2026-11-23 00:54:56] LIST | User=raja
+[2026-11-23 00:55:57] API | Kurs dasar IDR berhasil diambil via Gson
+[2026-11-23 00:55:57] LIST | User=raja
+[2026-11-23 00:56:56] LIST | User=raja
+[2026-11-23 00:57:56] LIST | User=raja
+[2026-11-23 00:58:56] LIST | User=raja
+[2026-11-23 00:59:56] LIST | User=raja
+[2026-11-23 01:00:47] LIST | User=raja
+[2026-11-23 01:01:45] DISCONNECT | User=raja | IP=127.0.0.1
+[2026-11-23 01:02:09] AUCTION END | Barang=5 | Pemenang=- (tidak terjual)
+[2026-11-23 01:02:59] CONNECT | IP=127.0.0.1
+[2026-11-23 01:02:59] LOGIN | User=raja | IP=127.0.0.1
+[2026-11-23 01:02:59] UDP SUB | User=raja | Addr=/127.0.0.1:49564
+[2026-11-23 01:02:59] API | Kurs dasar IDR berhasil diambil via Gson
+[2026-11-23 01:02:59] LIST | User=raja
+[2026-11-23 01:02:59] API | Kurs dasar USD berhasil diambil via Gson
+[2026-11-23 01:02:59] CONVERT | User=raja | 1 USD -> IDR | Hasil=18291.41
+[2026-11-23 01:03:19] LIST | User=raja
+[2026-11-23 01:03:36] FILE UPLOAD | File=aura.jpeg | Size=91131 bytes
+[2026-11-23 01:03:39] LIST | User=raja
+[2026-11-23 01:03:56] DELLOT | User=raja | Barang=5 | Hasil=200
+[2026-11-23 01:03:56] LIST | User=raja
+[2026-11-23 01:03:59] LIST | User=raja
+[2026-11-23 01:04:08] EXIT | User=raja
+[2026-11-23 01:04:08] DISCONNECT | User=raja | IP=127.0.0.1
+[2026-11-23 01:05:59] AUCTION END | Barang=4 | Pemenang=- (tidak terjual)
+[2026-11-23 01:14:47] AUCTION END | Barang=1 | Pemenang=- (tidak terjual)
+[2026-11-23 01:14:47] AUCTION END | Barang=2 | Pemenang=- (tidak terjual)
+[2026-11-23 01:14:47] AUCTION END | Barang=3 | Pemenang=raja | IDR=7550000
+[2026-11-23 15:30:38] API ERROR | open.er-api.com | kurs belum tersedia
+[2026-11-23 15:30:38] SERVER STARTED | TCP=5000 | FILE=5001 | UDP=5002
+[2026-11-23 15:30:38] UDP TICKER STARTED | Port=5002
+[2026-11-23 15:30:38] AUCTION START | Barang=1 | Nama=Laptop ASUS ROG (bekas)
+[2026-11-23 15:30:38] AUCTION START | Barang=2 | Nama=iPhone 15
+[2026-11-23 15:30:38] AUCTION START | Barang=3 | Nama=Keyboard Mechanical
+[2026-11-23 15:30:49] CONNECT | IP=127.0.0.1
+[2026-11-23 15:30:49] LOGIN | User=raja | IP=127.0.0.1
+[2026-11-23 15:30:49] UDP SUB | User=raja | Addr=/127.0.0.1:49869
+[2026-11-23 15:30:49] LIST | User=raja
+[2026-11-23 15:30:49] API ERROR | open.er-api.com | kurs belum tersedia
+[2026-11-23 15:30:49] CONVERT GAGAL | User=raja | USD -> IDR | Exchange Rate API tidak dapat dihubungi saat ini.
+[2026-11-23 15:31:09] API ERROR | open.er-api.com | kurs belum tersedia
+[2026-11-23 15:31:09] LIST | User=raja
+[2026-11-23 15:31:25] CONNECT | IP=127.0.0.1
+[2026-11-23 15:31:25] LOGIN DITOLAK | User=raja | IP=127.0.0.1
+[2026-11-23 15:31:25] DISCONNECT | User=(belum login) | IP=127.0.0.1
+[2026-11-23 15:31:31] CONNECT | IP=127.0.0.1
+[2026-11-23 15:31:31] LOGIN | User=rajao | IP=127.0.0.1
+[2026-11-23 15:31:31] UDP SUB | User=rajao | Addr=/127.0.0.1:58376
+[2026-11-23 15:31:31] LIST | User=rajao
+[2026-11-23 15:31:31] API ERROR | open.er-api.com | kurs belum tersedia
+[2026-11-23 15:31:31] CONVERT GAGAL | User=rajao | USD -> IDR | Exchange Rate API tidak dapat dihubungi saat ini.
+[2026-11-23 15:31:51] API ERROR | open.er-api.com | kurs belum tersedia
+[2026-11-23 15:31:51] LIST | User=rajao
+[2026-11-24 20:24:11] AUCTION START | Barang=1 | Nama=Laptop ASUS ROG (bekas)
+[2026-11-24 20:24:11] AUCTION START | Barang=2 | Nama=iPhone 15
+[2026-11-24 20:24:11] AUCTION START | Barang=3 | Nama=Keyboard Mechanical
+[2026-11-24 20:24:12] API | Kurs dasar IDR berhasil diambil via Gson
+[2026-11-24 20:24:12] SERVER STARTED | TCP=5000 | FILE=5001 | UDP=5002
+[2026-11-24 20:24:12] UDP TICKER STARTED | Port=5002
+[2026-11-24 20:26:30] AUCTION START | Barang=1 | Nama=Laptop ASUS ROG (bekas)
+[2026-11-24 20:26:30] AUCTION START | Barang=2 | Nama=iPhone 15
+[2026-11-24 20:26:30] AUCTION START | Barang=3 | Nama=Keyboard Mechanical
+[2026-11-24 20:26:30] API | Kurs dasar IDR berhasil diambil via Gson
+[2026-11-24 20:26:30] SERVER STARTED | TCP=5000 | FILE=5001 | UDP=5002
+[2026-11-24 20:26:30] UDP TICKER STARTED | Port=5002
+[2026-11-24 20:30:20] CONNECT | IP=127.0.0.1
+[2026-11-24 20:30:20] LOGIN | User=raja_01 | IP=127.0.0.1
+[2026-11-24 20:30:20] UDP SUB | User=raja_01 | Addr=/127.0.0.1:55536
+[2026-11-24 20:30:20] LIST | User=raja_01
+[2026-11-24 20:30:48] CONNECT | IP=127.0.0.1
+[2026-11-24 20:30:54] LOGIN | User=faridz | IP=127.0.0.1
+[2026-11-24 20:30:54] UDP SUB | User=faridz | Addr=/127.0.0.1:51035
+[2026-11-24 20:31:06] CONNECT | IP=127.0.0.1
+[2026-11-24 20:31:06] LOGIN | User=talbi | IP=127.0.0.1
+[2026-11-24 20:31:06] UDP SUB | User=talbi | Addr=/127.0.0.1:64728
+[2026-11-24 20:31:06] LIST | User=talbi
+[2026-11-24 20:31:06] API | Kurs dasar USD berhasil diambil via Gson
+[2026-11-24 20:31:06] CONVERT | User=talbi | 1 USD -> IDR | Hasil=18195.48
+[2026-11-24 20:31:26] LIST | User=talbi
+[2026-11-24 20:31:47] API | Kurs dasar IDR berhasil diambil via Gson
+[2026-11-24 20:31:47] LIST | User=talbi
+[2026-11-24 20:33:56] LIST | User=talbi
+[2026-11-24 20:34:06] LIST | User=talbi
+[2026-11-24 20:34:26] LIST | User=talbi
+[2026-11-24 20:34:46] LIST | User=talbi
+[2026-11-24 20:35:24] LIST | User=talbi
+[2026-11-24 20:35:26] LIST | User=talbi
+[2026-11-24 20:35:46] LIST | User=talbi
+[2026-11-24 20:36:06] LIST | User=talbi
+[2026-11-24 20:36:12] CONNECT | IP=127.0.0.1
+[2026-11-24 20:36:12] LOGIN DITOLAK | User=talbi | IP=127.0.0.1
+[2026-11-24 20:36:12] DISCONNECT | User=(belum login) | IP=127.0.0.1
+[2026-11-24 20:36:15] CONNECT | IP=127.0.0.1
+[2026-11-24 20:36:15] LOGIN | User=maman | IP=127.0.0.1
+[2026-11-24 20:36:15] UDP SUB | User=maman | Addr=/127.0.0.1:50976
+[2026-11-24 20:36:15] LIST | User=maman
+[2026-11-24 20:36:15] API | Kurs dasar USD berhasil diambil via Gson
+[2026-11-24 20:36:15] CONVERT | User=maman | 1 USD -> IDR | Hasil=18195.48
+[2026-11-24 20:36:26] LIST | User=talbi
+[2026-11-24 20:36:35] LIST | User=maman
+[2026-11-24 20:36:46] LIST | User=talbi
+[2026-11-24 20:36:56] API | Kurs dasar IDR berhasil diambil via Gson
+[2026-11-24 20:36:56] LIST | User=maman
+[2026-11-24 20:37:06] LIST | User=talbi
+[2026-11-24 20:37:15] LIST | User=maman
+[2026-11-24 20:37:26] LIST | User=talbi
+[2026-11-24 20:37:35] LIST | User=maman
+[2026-11-24 20:37:46] LIST | User=talbi
+[2026-11-24 20:37:52] LIST | User=raja_01
+[2026-11-24 20:37:52] SELL | User=talbi | Barang=4 | Nama=samsung a36 | IDR=3200000 | File=- | Kategori=smartphone | Mulai=0m | Durasi=1m
+[2026-11-24 20:37:52] SELL | User=talbi | Barang=5 | Nama=samsung a36 | IDR=3200000 | File=- | Kategori=smartphone | Mulai=0m | Durasi=1m
+[2026-11-24 20:37:52] LIST | User=talbi
+[2026-11-24 20:37:52] LIST | User=raja_01
+[2026-11-24 20:37:52] LIST | User=talbi
+[2026-11-24 20:37:52] LIST | User=maman
+[2026-11-24 20:37:52] LIST | User=maman
+[2026-11-24 20:37:52] AUCTION START | Barang=4 | Nama=samsung a36
+[2026-11-24 20:37:53] AUCTION START | Barang=5 | Nama=samsung a36
+[2026-11-24 20:37:53] LIST | User=talbi
+[2026-11-24 20:37:53] LIST | User=talbi
+[2026-11-24 20:37:53] LIST | User=maman
+[2026-11-24 20:37:53] LIST | User=maman
+[2026-11-24 20:37:55] LIST | User=maman
+[2026-11-24 20:38:06] LIST | User=talbi
+[2026-11-24 20:38:08] LIST | User=raja_01
+[2026-11-24 20:38:08] BID | User=maman | Barang=4 | IDR=3200000 | Hasil=200
+[2026-11-24 20:38:08] LIST | User=maman
+[2026-11-24 20:38:08] LIST | User=talbi
+[2026-11-24 20:38:15] LIST | User=maman
+[2026-11-24 20:38:20] BID | User=maman | Barang=4 | IDR=3250000 | Hasil=200
+[2026-11-24 20:38:20] LIST | User=raja_01
+[2026-11-24 20:38:20] LIST | User=talbi
+[2026-11-24 20:38:20] LIST | User=maman
+[2026-11-24 20:38:31] CONNECT | IP=127.0.0.1
+[2026-11-24 20:38:31] LOGIN | User=raja | IP=127.0.0.1
+[2026-11-24 20:38:31] UDP SUB | User=raja | Addr=/127.0.0.1:58439
+[2026-11-24 20:38:31] LIST | User=raja
+[2026-11-24 20:38:31] CONVERT | User=raja | 1 USD -> IDR | Hasil=18195.48
+[2026-11-24 20:38:35] LIST | User=maman
+[2026-11-24 20:38:51] LIST | User=raja
+[2026-11-24 20:38:52] LIST | User=raja
+[2026-11-24 20:38:52] AUCTION END | Barang=4 | Pemenang=maman | IDR=3250000
+[2026-11-24 20:38:52] LIST | User=maman
+[2026-11-24 20:38:53] AUCTION END | Barang=5 | Pemenang=- (tidak terjual)
+[2026-11-24 20:38:53] LIST | User=raja
+[2026-11-24 20:38:53] LIST | User=maman
+[2026-11-24 20:38:53] LIST | User=maman
+[2026-11-24 20:38:55] LIST | User=maman
+[2026-11-24 20:39:11] LIST | User=raja
+[2026-11-24 20:39:15] LIST | User=maman
+[2026-11-24 20:39:18] DISCONNECT | User=talbi | IP=127.0.0.1
+[2026-11-24 20:39:31] LIST | User=raja
+[2026-11-24 20:39:35] LIST | User=maman
+[2026-11-24 20:39:49] SELL | User=maman | Barang=6 | Nama=samsung a36 | IDR=3200000 | File=brosur_lengkap_lelang.pdf | Kategori=smartphone | Mulai=0m | Durasi=1m
+[2026-11-24 20:39:49] AUCTION START | Barang=6 | Nama=samsung a36
+[2026-11-24 20:39:49] LIST | User=maman
+[2026-11-24 20:39:49] LIST | User=maman
+[2026-11-24 20:39:49] LIST | User=raja_01
+[2026-11-24 20:39:49] LIST | User=raja
+[2026-11-24 20:39:49] LIST | User=raja
+[2026-11-24 20:39:51] LIST | User=raja
+[2026-11-24 20:39:55] LIST | User=maman
+[2026-11-24 20:40:01] BID | User=raja | Barang=6 | IDR=3800000 | Hasil=200
+[2026-11-24 20:40:01] LIST | User=raja_01
+[2026-11-24 20:40:01] LIST | User=raja
+[2026-11-24 20:40:01] LIST | User=maman
+[2026-11-24 20:40:11] BID | User=raja | Barang=6 | IDR=3900000 | Hasil=200
+[2026-11-24 20:40:11] LIST | User=raja_01
+[2026-11-24 20:40:11] LIST | User=maman
+[2026-11-24 20:40:11] LIST | User=raja
+[2026-11-24 20:40:11] LIST | User=raja
+[2026-11-24 20:40:15] LIST | User=maman
+[2026-11-24 20:40:19] CONNECT | IP=127.0.0.1
+[2026-11-24 20:40:19] LOGIN | User=talbi | IP=127.0.0.1
+[2026-11-24 20:40:19] UDP SUB | User=talbi | Addr=/127.0.0.1:64079
+[2026-11-24 20:40:19] LIST | User=talbi
+[2026-11-24 20:40:19] CONVERT | User=talbi | 1 USD -> IDR | Hasil=18195.48
+[2026-11-24 20:40:23] BID | User=talbi | Barang=6 | IDR=4450000 | Hasil=200
+[2026-11-24 20:40:23] LIST | User=raja_01
+[2026-11-24 20:40:23] LIST | User=talbi
+[2026-11-24 20:40:23] LIST | User=raja
+[2026-11-24 20:40:23] LIST | User=maman
+[2026-11-24 20:40:23] LIST | User=raja
+[2026-11-24 20:40:31] LIST | User=raja
+[2026-11-24 20:40:32] BID | User=raja | Barang=6 | IDR=4550000 | Hasil=200
+[2026-11-24 20:40:32] LIST | User=raja_01
+[2026-11-24 20:40:32] LIST | User=raja
+[2026-11-24 20:40:32] LIST | User=maman
+[2026-11-24 20:40:32] LIST | User=talbi
+[2026-11-24 20:40:32] LIST | User=talbi
+[2026-11-24 20:40:35] LIST | User=maman
+[2026-11-24 20:40:39] LIST | User=talbi
+[2026-11-24 20:40:51] LIST | User=raja
+[2026-11-24 20:40:54] TIMEOUT | User=faridz | IP=127.0.0.1
+[2026-11-24 20:40:54] DISCONNECT | User=faridz | IP=127.0.0.1
+[2026-11-24 20:40:55] LIST | User=maman
+[2026-11-24 20:40:59] LIST | User=talbi
+[2026-11-24 20:41:02] AUCTION END | Barang=6 | Pemenang=raja | IDR=4550000
+[2026-11-24 20:41:02] LIST | User=raja
+[2026-11-24 20:41:02] LIST | User=raja
+[2026-11-24 20:41:02] LIST | User=maman
+[2026-11-24 20:41:02] LIST | User=talbi
+[2026-11-24 20:41:02] LIST | User=maman
+[2026-11-24 20:41:11] LIST | User=raja
+[2026-11-24 20:41:15] LIST | User=maman
+[2026-11-24 20:41:20] LIST | User=talbi
+[2026-11-24 20:41:31] LIST | User=raja
+[2026-11-24 20:41:35] LIST | User=maman
+[2026-11-24 20:41:39] LIST | User=talbi
+[2026-11-24 20:41:51] LIST | User=raja
+[2026-11-24 20:41:55] PRIVATE | From=raja | To=maman
+[2026-11-24 20:41:58] API | Kurs dasar IDR berhasil diambil via Gson
+[2026-11-24 20:41:58] LIST | User=maman
+[2026-11-24 20:41:59] LIST | User=talbi
+[2026-11-24 20:42:11] LIST | User=raja
+[2026-11-24 20:42:15] LIST | User=maman
+[2026-11-24 20:42:19] LIST | User=talbi
+[2026-11-24 20:42:31] LIST | User=raja
+[2026-11-24 20:42:35] LIST | User=maman
+[2026-11-24 20:42:39] LIST | User=talbi
+[2026-11-24 20:42:51] LIST | User=raja
+[2026-11-24 20:42:55] LIST | User=maman
+[2026-11-24 20:42:59] LIST | User=talbi
+[2026-11-24 20:43:56] LIST | User=maman
+[2026-11-24 20:43:56] LIST | User=talbi
+[2026-11-24 20:43:56] LIST | User=raja
+[2026-11-24 20:44:20] LIST | User=raja
+[2026-11-24 20:44:31] LIST | User=raja
+[2026-11-24 20:44:51] LIST | User=raja
+[2026-11-24 20:44:56] LIST | User=talbi
+[2026-11-24 20:44:56] LIST | User=maman
+[2026-11-24 20:44:59] LIST | User=talbi
+[2026-11-24 20:45:11] LIST | User=raja
+[2026-11-24 20:45:19] LIST | User=talbi
+[2026-11-24 20:45:39] LIST | User=talbi
+[2026-11-24 20:45:56] LIST | User=raja
+[2026-11-24 20:45:56] LIST | User=maman
+[2026-11-24 20:45:59] LIST | User=talbi
+[2026-11-24 20:46:03] EXIT | User=raja_01
+[2026-11-24 20:46:03] DISCONNECT | User=raja_01 | IP=127.0.0.1
+[2026-11-24 21:01:55] AUCTION START | Barang=1 | Nama=Laptop ASUS ROG (bekas)
+[2026-11-24 21:01:55] AUCTION START | Barang=2 | Nama=iPhone 15
+[2026-11-24 21:01:55] AUCTION START | Barang=3 | Nama=Keyboard Mechanical
+[2026-11-24 21:01:55] API | Kurs dasar IDR berhasil diambil via Gson
+[2026-11-24 21:01:55] SERVER STARTED | TCP=5000 | FILE=5001 | UDP=5002
+[2026-11-24 21:01:55] UDP TICKER STARTED | Port=5002
+[2026-11-24 21:02:34] CONNECT | IP=127.0.0.1
+[2026-11-24 21:02:34] LOGIN | User=habil | IP=127.0.0.1
+[2026-11-24 21:02:34] UDP SUB | User=habil | Addr=/127.0.0.1:57707
+[2026-11-24 21:02:35] LIST | User=habil
+[2026-11-24 21:02:35] API | Kurs dasar USD berhasil diambil via Gson
+[2026-11-24 21:02:35] CONVERT | User=habil | 1 USD -> IDR | Hasil=18195.48
+[2026-11-24 21:02:53] CONNECT | IP=127.0.0.1
+[2026-11-24 21:02:53] LOGIN DITOLAK | User=habil | IP=127.0.0.1
+[2026-11-24 21:02:53] DISCONNECT | User=(belum login) | IP=127.0.0.1
+[2026-11-24 21:02:55] LIST | User=habil
+[2026-11-24 21:03:15] LIST | User=habil
+[2026-11-24 21:03:35] LIST | User=habil
+[2026-11-24 21:03:55] LIST | User=habil
+[2026-11-24 21:04:02] CONNECT | IP=127.0.0.1
+[2026-11-24 21:04:02] LOGIN | User=talbi | IP=127.0.0.1
+[2026-11-24 21:04:02] UDP SUB | User=talbi | Addr=/127.0.0.1:57771
+[2026-11-24 21:04:02] LIST | User=talbi
+[2026-11-24 21:04:02] CONVERT | User=talbi | 1 USD -> IDR | Hasil=18195.48
+[2026-11-24 21:04:15] LIST | User=habil
+[2026-11-24 21:04:22] LIST | User=talbi
+[2026-11-24 21:04:35] LIST | User=habil
+[2026-11-24 21:04:40] BROADCAST | User=talbi | Msg=halo bang
+[2026-11-24 21:04:42] LIST | User=talbi
+[2026-11-24 21:04:52] CONNECT | IP=127.0.0.1
+[2026-11-24 21:04:52] LOGIN | User=raja | IP=127.0.0.1
+[2026-11-24 21:04:52] UDP SUB | User=raja | Addr=/127.0.0.1:53790
+[2026-11-24 21:04:53] LIST | User=raja
+[2026-11-24 21:04:53] CONVERT | User=raja | 1 USD -> IDR | Hasil=18195.48
+[2026-11-24 21:04:55] BROADCAST | User=raja | Msg=halo
+[2026-11-24 21:04:55] LIST | User=habil
+[2026-11-24 21:05:02] LIST | User=talbi
+[2026-11-24 21:05:13] LIST | User=raja
+[2026-11-24 21:05:15] LIST | User=habil
+[2026-11-24 21:05:22] LIST | User=talbi
+[2026-11-24 21:05:25] PRIVATE | From=talbi | To=habil
+[2026-11-24 21:05:33] LIST | User=raja
+[2026-11-24 21:05:35] LIST | User=habil
+[2026-11-24 21:05:42] LIST | User=talbi
+[2026-11-24 21:05:53] LIST | User=raja
+[2026-11-24 21:05:55] LIST | User=habil
+[2026-11-24 21:06:02] LIST | User=talbi
+[2026-11-24 21:06:13] LIST | User=raja
+[2026-11-24 21:06:15] LIST | User=habil
+[2026-11-24 21:06:22] LIST | User=talbi
+[2026-11-24 21:06:33] LIST | User=raja
+[2026-11-24 21:06:53] LIST | User=raja
+[2026-11-24 21:06:57] API | Kurs dasar IDR berhasil diambil via Gson
+[2026-11-24 21:06:57] LIST | User=habil
+[2026-11-24 21:06:57] LIST | User=talbi
+[2026-11-24 21:07:13] LIST | User=raja
+[2026-11-24 21:07:13] SELL | User=raja | Barang=4 | Nama=samsung a36 | IDR=3200000 | File=- | Kategori=smartphone | Mulai=0m | Durasi=1m
+[2026-11-24 21:07:13] LIST | User=talbi
+[2026-11-24 21:07:13] LIST | User=raja
+[2026-11-24 21:07:13] LIST | User=habil
+[2026-11-24 21:07:13] AUCTION START | Barang=4 | Nama=samsung a36
+[2026-11-24 21:07:13] LIST | User=raja
+[2026-11-24 21:07:13] LIST | User=habil
+[2026-11-24 21:07:13] LIST | User=talbi
+[2026-11-24 21:07:15] LIST | User=talbi
+[2026-11-24 21:07:22] LIST | User=talbi
+[2026-11-24 21:07:33] LIST | User=raja
+[2026-11-24 21:07:42] LIST | User=talbi
+[2026-11-24 21:07:48] BID | User=talbi | Barang=4 | IDR=3251000 | Hasil=200
+[2026-11-24 21:07:48] LIST | User=talbi
+[2026-11-24 21:07:48] LIST | User=habil
+[2026-11-24 21:07:48] LIST | User=raja
+[2026-11-24 21:07:53] LIST | User=raja
+[2026-11-24 21:07:56] LIST | User=habil
+[2026-11-24 21:08:02] LIST | User=talbi
+[2026-11-24 21:08:13] LIST | User=raja
+[2026-11-24 21:08:15] LIST | User=habil
+[2026-11-24 21:08:15] BID | User=habil | Barang=4 | IDR=3801000 | Hasil=200
+[2026-11-24 21:08:15] LIST | User=raja
+[2026-11-24 21:08:15] LIST | User=talbi
+[2026-11-24 21:08:15] LIST | User=habil
+[2026-11-24 21:08:15] LIST | User=talbi
+[2026-11-24 21:08:22] LIST | User=talbi
+[2026-11-24 21:08:33] LIST | User=raja
+[2026-11-24 21:08:35] LIST | User=habil
+[2026-11-24 21:08:36] BID | User=talbi | Barang=4 | IDR=3851000 | Hasil=200
+[2026-11-24 21:08:36] LIST | User=raja
+[2026-11-24 21:08:36] LIST | User=habil
+[2026-11-24 21:08:36] LIST | User=habil
+[2026-11-24 21:08:36] LIST | User=talbi
+[2026-11-24 21:08:38] BID | User=talbi | Barang=4 | IDR=4401000 | Hasil=200
+[2026-11-24 21:08:38] LIST | User=raja
+[2026-11-24 21:08:38] LIST | User=habil
+[2026-11-24 21:08:38] LIST | User=talbi
+[2026-11-24 21:08:39] BID | User=talbi | Barang=4 | IDR=4451000 | Hasil=200
+[2026-11-24 21:08:39] LIST | User=raja
+[2026-11-24 21:08:39] LIST | User=habil
+[2026-11-24 21:08:39] LIST | User=talbi
+[2026-11-24 21:08:42] LIST | User=talbi
+[2026-11-24 21:08:53] LIST | User=raja
+[2026-11-24 21:08:55] BID | User=talbi | Barang=4 | IDR=5001000 | Hasil=200
+[2026-11-24 21:08:55] LIST | User=talbi
+[2026-11-24 21:08:55] LIST | User=raja
+[2026-11-24 21:08:55] LIST | User=habil
+[2026-11-24 21:08:55] LIST | User=habil
+[2026-11-24 21:08:57] BID | User=habil | Barang=4 | IDR=5551000 | Hasil=200
+[2026-11-24 21:08:57] LIST | User=talbi
+[2026-11-24 21:08:57] LIST | User=raja
+[2026-11-24 21:08:57] LIST | User=talbi
+[2026-11-24 21:08:57] LIST | User=habil
+[2026-11-24 21:09:03] LIST | User=talbi
+[2026-11-24 21:09:04] BID | User=talbi | Barang=4 | IDR=6101000 | Hasil=200
+[2026-11-24 21:09:04] LIST | User=habil
+[2026-11-24 21:09:04] LIST | User=raja
+[2026-11-24 21:09:04] LIST | User=habil
+[2026-11-24 21:09:04] LIST | User=talbi
+[2026-11-24 21:09:15] LIST | User=habil
+[2026-11-24 21:09:19] LIST | User=raja
+[2026-11-24 21:09:22] LIST | User=talbi
+[2026-11-24 21:09:33] LIST | User=raja
+[2026-11-24 21:09:34] LIST | User=raja
+[2026-11-24 21:09:34] LIST | User=raja
+[2026-11-24 21:09:34] AUCTION END | Barang=4 | Pemenang=talbi | IDR=6101000
+[2026-11-24 21:09:34] LIST | User=talbi
+[2026-11-24 21:09:34] LIST | User=habil
+[2026-11-24 21:09:34] LIST | User=talbi
+[2026-11-24 21:09:35] LIST | User=habil
+[2026-11-24 21:09:42] LIST | User=talbi
+[2026-11-24 21:09:48] FILE UPLOAD | File=street.png | Size=23105 bytes
+[2026-11-24 21:09:53] LIST | User=raja
+[2026-11-24 21:09:55] DELFILE | User=raja | File=street.png | Hasil=200
+[2026-11-24 21:09:55] LIST | User=habil
+[2026-11-24 21:10:03] LIST | User=talbi
+[2026-11-24 21:10:13] LIST | User=raja
+[2026-11-24 21:10:24] API | Kurs dasar USD berhasil diambil via Gson
+[2026-11-24 21:10:24] CONVERT | User=raja | 1 USD -> IDR | Hasil=18195.48
+[2026-11-24 21:10:33] LIST | User=raja
+[2026-11-24 21:10:53] LIST | User=raja
+[2026-11-24 21:10:56] LIST | User=habil
+[2026-11-24 21:10:56] LIST | User=talbi
+[2026-11-24 21:11:03] LIST | User=talbi
+[2026-11-24 21:11:13] LIST | User=raja
+[2026-11-24 21:11:15] LIST | User=habil
+[2026-11-24 21:11:22] LIST | User=talbi
+[2026-11-24 21:11:33] LIST | User=raja
+[2026-11-24 21:11:35] LIST | User=habil
+[2026-11-24 21:11:42] LIST | User=talbi
+[2026-11-24 21:11:53] LIST | User=raja
+[2026-11-24 21:11:55] LIST | User=habil
+[2026-11-24 21:12:04] API | Kurs dasar IDR berhasil diambil via Gson
+[2026-11-24 21:12:04] LIST | User=talbi
+[2026-11-24 21:12:22] LIST | User=talbi
+[2026-11-24 21:12:33] LIST | User=raja
+[2026-11-24 21:12:53] LIST | User=raja
+[2026-11-24 21:12:56] LIST | User=habil
+[2026-11-24 21:12:56] LIST | User=talbi
+[2026-11-24 21:13:13] LIST | User=raja
+[2026-11-24 21:13:33] LIST | User=raja
+[2026-11-24 21:13:56] LIST | User=habil
+[2026-11-24 21:13:56] LIST | User=raja
+[2026-11-24 21:13:56] LIST | User=talbi
+[2026-11-24 21:14:56] LIST | User=talbi
+[2026-11-24 21:14:56] LIST | User=raja
+[2026-11-24 21:14:56] LIST | User=habil
+[2026-11-24 21:15:56] LIST | User=talbi
+[2026-11-24 21:15:56] LIST | User=raja
+[2026-11-24 21:15:56] LIST | User=habil
+[2026-11-24 21:16:56] LIST | User=talbi
+[2026-11-24 21:16:56] LIST | User=raja
+[2026-11-24 21:16:56] LIST | User=habil
+[2026-11-24 21:17:16] API | Kurs dasar IDR berhasil diambil via Gson
+[2026-11-24 21:17:16] LIST | User=habil
+[2026-11-24 21:17:35] LIST | User=habil
+[2026-11-24 21:17:55] LIST | User=habil
+[2026-11-24 21:17:56] LIST | User=raja
+[2026-11-24 21:17:56] LIST | User=talbi
+[2026-11-24 21:18:15] LIST | User=habil
+[2026-11-24 21:18:35] LIST | User=habil
+[2026-11-24 21:18:55] LIST | User=habil
+[2026-11-24 21:18:56] LIST | User=raja
+[2026-11-24 21:18:56] LIST | User=talbi
+[2026-11-24 21:19:15] LIST | User=habil
+[2026-11-24 21:19:35] LIST | User=habil
+[2026-11-24 21:19:55] LIST | User=habil
+[2026-11-24 21:19:56] LIST | User=raja
+[2026-11-24 21:19:56] LIST | User=talbi
+[2026-11-24 21:20:15] LIST | User=habil
+[2026-11-24 21:20:35] LIST | User=habil
+[2026-11-24 21:20:56] LIST | User=talbi
+[2026-11-24 21:20:56] LIST | User=raja
+[2026-11-24 21:20:56] LIST | User=habil
+[2026-11-24 21:21:56] LIST | User=raja
+[2026-11-24 21:21:56] LIST | User=talbi
+[2026-11-24 21:21:56] LIST | User=habil
+[2026-11-24 21:22:44] API | Kurs dasar IDR berhasil diambil via Gson
+[2026-11-24 21:22:44] LIST | User=raja
+[2026-11-24 21:22:45] LIST | User=talbi
+[2026-11-24 21:22:53] LIST | User=raja
+[2026-11-24 21:22:56] LIST | User=habil
+[2026-11-24 21:23:02] LIST | User=talbi
+[2026-11-24 21:23:13] LIST | User=raja
+[2026-11-24 21:23:22] LIST | User=talbi
+[2026-11-24 21:23:33] LIST | User=raja
+[2026-11-24 21:23:42] LIST | User=talbi
+[2026-11-24 21:23:56] LIST | User=habil
+[2026-11-24 21:23:56] LIST | User=raja
+[2026-11-24 21:24:56] LIST | User=raja
+[2026-11-24 21:24:56] LIST | User=habil
+[2026-11-24 21:24:56] LIST | User=talbi
+[2026-11-24 21:25:40] LIST | User=talbi
+[2026-11-24 21:25:42] LIST | User=talbi

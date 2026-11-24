@@ -1,0 +1,352 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#202923">
+    <title>NetAuction Live</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/general-sans">
+
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<div id="login" class="login-screen">
+    <form id="loginForm" class="login-card">
+        <div class="brand-mark">N<span>.</span></div>
+
+        <p class="eyebrow">NetAuction</p>
+
+        <h1>Temukan nilai<br>di setiap penawaran.</h1>
+
+        <p class="login-copy">
+            Masuk untuk mengikuti lelang, mengajukan penawaran,
+            dan berinteraksi dengan peserta lain.
+        </p>
+
+        <label class="field-label" for="user">Nama peserta</label>
+
+        <div class="login-row">
+            <input id="user" placeholder="Contoh: namaanda"
+                   autocomplete="off" maxlength="15" required>
+            <button type="submit">Masuk →</button>
+        </div>
+
+        <p class="err" id="loginErr" role="alert"></p>
+
+        <small>Gunakan 3–15 karakter: huruf, angka, atau garis bawah.</small>
+
+        <div class="login-foot">
+            <span>NETAUCTION LIVE</span>
+            <span>EST. 2026</span>
+        </div>
+    </form>
+</div>
+
+<div id="app" class="hidden">
+
+    <header class="topbar">
+
+        <a class="brand" href="#">
+            <span class="brand-symbol">N<span>.</span></span>
+            <span>NetAuction <small>LIVE</small></span>
+        </a>
+
+        <div class="header-status">
+            <span class="chip">
+                <span class="dot on" id="tcpDot"></span>
+                Terhubung sebagai <b id="me"></b>
+            </span>
+
+            <span class="chip">
+                <span class="dot" id="udpDot"></span>
+                <span id="udpTxt">UDP menunggu</span>
+            </span>
+
+            <span class="chip">
+                Kurs USD <b id="rate">-</b>
+            </span>
+        </div>
+
+        <button class="ghost exit-button" id="exit">Keluar</button>
+
+    </header>
+
+    <div class="ticker-wrap">
+        <span class="ticker-label">LIVE UPDATE</span>
+        <div class="ticker">
+            <span id="ticker">Menunggu data harga langsung...</span>
+        </div>
+    </div>
+
+    <main>
+
+        <section class="auction-section">
+
+            <div id="viewList">
+
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">PASAR LELANG</p>
+                    <h1>Barang lelang</h1>
+                    <p class="section-intro">
+                        Jelajahi barang yang tersedia dan ajukan penawaran terbaik Anda.
+                    </p>
+                </div>
+
+                <span class="section-index">01 / MARKETPLACE</span>
+            </div>
+
+            <div class="filters" id="filters" role="group" aria-label="Filter kategori barang">
+                <button type="button" class="filter active" data-cat="all" aria-pressed="true">Semua <span>0</span></button>
+                <button type="button" class="filter" data-cat="smartphone" aria-pressed="false">Smartphone <span>0</span></button>
+                <button type="button" class="filter" data-cat="pclaptop" aria-pressed="false">PC &amp; Laptop <span>0</span></button>
+                <button type="button" class="filter" data-cat="aksesoris" aria-pressed="false">Aksesoris <span>0</span></button>
+            </div>
+
+            <div class="filters status-filters" id="statusFilters" role="group" aria-label="Filter status lelang">
+                <button type="button" class="filter active" data-st="all" aria-pressed="true">Semua status <span>0</span></button>
+                <button type="button" class="filter" data-st="running" aria-pressed="false">Berjalan <span>0</span></button>
+                <button type="button" class="filter" data-st="pending" aria-pressed="false">Menunggu <span>0</span></button>
+                <button type="button" class="filter" data-st="ended" aria-pressed="false">Selesai <span>0</span></button>
+            </div>
+
+            <div id="lots" class="lots-list"></div>
+            </div>
+
+            <div id="viewLot" class="hidden"></div>
+
+            <div id="viewSell" class="hidden">
+                <a class="back-link" href="#/">&larr; Kembali ke daftar barang</a>
+
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">PASANG PENAWARAN</p>
+                        <h1>Ajukan barang</h1>
+                        <p class="section-intro">
+                            Isi detail barang, lalu tentukan kapan lelang dimulai dan berapa lama berlangsung.
+                            Lelang dibuka dan ditutup otomatis oleh server.
+                        </p>
+                    </div>
+                </div>
+
+                <form id="sellForm" class="sell-page">
+                    <div class="sell-grid">
+                        <div class="sell-col">
+                            <label class="field-label" for="sName">Nama barang</label>
+                            <input id="sName" placeholder="Contoh: Kamera analog" maxlength="40" required>
+
+                            <label class="field-label" for="sCat">Kategori</label>
+                            <select id="sCat" required>
+                                <option value="">Pilih kategori</option>
+                                <option value="smartphone">Smartphone</option>
+                                <option value="pclaptop">PC &amp; Laptop</option>
+                                <option value="aksesoris">Aksesoris</option>
+                            </select>
+
+                            <label class="field-label" for="sPrice">Harga awal</label>
+                            <input id="sPrice" placeholder="Dalam Rupiah (Rp), minimal 1000" inputmode="numeric" required>
+
+                            <label class="field-label" for="sFile">Berkas katalog</label>
+                            <select id="sFile">
+                                <option value="">Tanpa berkas katalog</option>
+                            </select>
+                            <small>Belum punya berkas? Unggah dulu di panel Katalog berkas.</small>
+                        </div>
+
+                        <div class="sell-col">
+                            <label class="field-label" for="sStart">Lelang dimulai</label>
+                            <select id="sStart">
+                                <option value="0">Sekarang</option>
+                                <option value="1">1 menit lagi</option>
+                                <option value="5">5 menit lagi</option>
+                                <option value="15">15 menit lagi</option>
+                                <option value="30">30 menit lagi</option>
+                                <option value="60">60 menit lagi</option>
+                            </select>
+
+                            <label class="field-label" for="sDur">Durasi lelang</label>
+                            <select id="sDur">
+                                <option value="1">1 menit (uji coba)</option>
+                                <option value="5">5 menit</option>
+                                <option value="15" selected>15 menit</option>
+                                <option value="30">30 menit</option>
+                                <option value="60">60 menit</option>
+                            </select>
+
+                            <div class="schedule-summary" id="sSummary" aria-live="polite"></div>
+                        </div>
+                    </div>
+
+                    <div class="msg" id="sMsg"></div>
+
+                    <div class="form-actions">
+                        <button type="submit">Ajukan barang &rarr;</button>
+                        <a class="btn ghost" href="#/">Batal</a>
+                    </div>
+
+                    <small class="panel-note">
+                        Maksimal 3 barang aktif per penjual. Barang yang belum ditawar dapat dihapus.
+                    </small>
+                </form>
+            </div>
+
+        </section>
+
+        <aside class="sidebar">
+
+            <section class="panel">
+
+                <div class="panel-heading">
+                    <div>
+                        <p class="eyebrow">KOMUNITAS</p>
+                        <h2>Peserta aktif</h2>
+                    </div>
+                    <span class="panel-number">02</span>
+                </div>
+
+                <div id="users">
+                    <small>Memuat...</small>
+                </div>
+
+            </section>
+
+            <section class="panel chat-panel">
+
+                <div class="panel-heading">
+                    <div>
+                        <p class="eyebrow">OBROLAN LANGSUNG</p>
+                        <h2>Ruang lelang</h2>
+                    </div>
+                    <span class="live-label"><i></i> LIVE</span>
+                </div>
+
+                <ul id="log" aria-live="polite"></ul>
+
+                <div class="chat-target" id="chatTarget">
+                    <label class="field-label" for="chatMode">Kirim pesan ke</label>
+                    <select id="chatMode">
+                        <option value="all">Semua peserta</option>
+                        <option value="private">Pesan pribadi</option>
+                    </select>
+                    <select id="chatTo" class="hidden" aria-label="Pilih penerima pesan pribadi"></select>
+                </div>
+
+                <form class="send" id="chatForm">
+                    <input id="chatIn"
+                           placeholder="Tulis pesan..."
+                           maxlength="300"
+                           aria-label="Pesan">
+
+                    <button type="submit" aria-label="Kirim pesan">↑</button>
+                </form>
+
+                <small class="panel-note">
+                    Pilih "Pesan pribadi" untuk memilih penerima dari peserta aktif.
+                </small>
+
+            </section>
+
+            
+
+            <section class="panel cta-panel">
+
+                <div class="panel-heading">
+                    <div>
+                        <p class="eyebrow">PASANG PENAWARAN</p>
+                        <h2>Jual barang</h2>
+                    </div>
+                    <span class="panel-number">03</span>
+                </div>
+
+                <p class="cta-copy">
+                    Ajukan barang Anda, tentukan jadwal mulai dan durasi,
+                    lalu lelang berjalan otomatis.
+                </p>
+
+                <a class="btn button-wide" href="#/jual">Ajukan barang <span>&rarr;</span></a>
+
+            </section>
+
+            <section class="panel">
+
+                <div class="panel-heading">
+                    <div>
+                        <p class="eyebrow">DOKUMEN</p>
+                        <h2>Katalog berkas</h2>
+                    </div>
+                    <span class="panel-number">04</span>
+                </div>
+
+                <ul class="files" id="files"></ul>
+
+                <label class="upload-control" for="upFile">
+                    <span class="upload-icon">＋</span>
+                    <span>
+                        <b>Pilih berkas</b>
+                        <small>PNG, JPG, atau PDF · Maks. 5 MB</small>
+                    </span>
+                </label>
+
+                <input type="file" id="upFile"
+                       accept=".png,.jpg,.jpeg,.pdf">
+
+                <div class="msg" id="fileMsg"></div>
+
+            </section>
+
+            <section class="panel converter-panel">
+
+                <div class="panel-heading">
+                    <div>
+                        <p class="eyebrow">NILAI TUKAR</p>
+                        <h2>Konversi mata uang</h2>
+                    </div>
+                    <span class="panel-number">05</span>
+                </div>
+
+                <div class="conv">
+
+                    <label>
+                        Dari
+                        <select id="cFrom"></select>
+                    </label>
+
+                    <label>
+                        Ke
+                        <select id="cTo"></select>
+                    </label>
+
+                    <label class="full">
+                        Jumlah
+                        <input id="cAmt" value="10"
+                               inputmode="decimal"
+                               maxlength="15"
+                               placeholder="Contoh: 100 atau 12.50">
+                    </label>
+
+                    <button class="ghost full" id="cGo">
+                        Hitung konversi →
+                    </button>
+
+                </div>
+
+                <div class="msg" id="cOut"></div>
+
+            </section>
+
+            <footer class="side-footer">
+                NETAUCTION LIVE
+                <span>PLATFORM LELANG DIGITAL</span>
+            </footer>
+        </aside>
+    </main>
+</div>
+<script src="/app.js"></script>
+</body>
+</html>
